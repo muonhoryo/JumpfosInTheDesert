@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b40285792a96b447a4b8fa087ebedfe, type: 3}
+  m_Name: ConstData
+  m_EditorClassIdentifier: 
+  GameItems:
+  - {fileID: 5137644722137437820, guid: ea8643d3804561d40856d725f8368bef, type: 3}
+  TempSimplePathPointPrefab: {fileID: 818513338739835695, guid: 7c9731a6d376dbc469a386daf3853db4, type: 3}
+  TempStairsPathPointPrefab: {fileID: 4429515178325398559, guid: 0fbd302272c509940b46bd4ae132c897, type: 3}
+  WallLayers:
+    serializedVersion: 2
+    m_Bits: 1024
+  HalfMovebleLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  NotMovebleLayers:
+    serializedVersion: 2
+    m_Bits: 1088
+  MovePointEndDistance: 0.5
+  CameraStartMoveRadius: 1
+  CameraLeftBorder: -11
+  CameraRightDorder: 11
+  CameraUpperBorder: 6
+  CameraLowerBorder: -24
+  ThreadManagerMaxTimeFrameWork: 0
